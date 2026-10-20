@@ -1,5 +1,5 @@
 [project]
-name = "langchain-course"
+name = "langchai-c"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,13 +12,12 @@ dependencies = [
     "isort>=6.1.0",
     "langchain>=0.3.30",
     "langchain-anthropic>=0.3.22",
-    "langchain-ollama>=0.3.10",
     "langchain-openai>=0.3.35",
     "python-dotenv>=1.2.1",
 ]
 
 [project.scripts]
-langchain-course = "langchain_course:main"
+langchai-c = "langchai_c:main"
 
 [build-system]
 requires = ["uv_build>=0.13.3,<0.14.0"]
