@@ -26,6 +26,7 @@ Musk serves as the CEO of both Tesla and SpaceX, steering global shifts in elect
     )
 
     # llm = ChatOpenAI(temperature=0, model="gpt-5")
+    #llm = ChatOllama(temperature=0, model="gpt-oss:20b")
     llm = ChatOllama(temperature=0, model="gemma3:270m")
     chain = summary_template_prompts | llm
     response = chain.invoke(input={"information" : information})
